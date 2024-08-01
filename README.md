@@ -14,7 +14,10 @@
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-
+<div align="center" style="display: flex;">  
+  <img src="https://komarev.com/ghpvc/?username=Vann-Dev&color=A109C5" alt="Views" />
+  <img src="https://wakatime.com/badge/user/018d3b7b-b0a0-4749-bd25-8190f66f3c83.svg" alt="Wakatime" />
+</div>
 
 
 ![](https://github-readme-stats.vercel.app/api?username=waldanzubary&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
