@@ -10,18 +10,30 @@
 
 
 
-```dart
+
 
 <table>
   <tr>
     <td>
-      <h3>👩‍💻 I'm currently working on...</h3>
-      <h3>🧠 I'm currently learning Flutter</h3>
-      <h3>👯‍♀️ I'm looking to collaborate on...</h3>
-      <h3>🤔 I'm looking for help with...</h3>
-      <h3>💬 Ask me Anything</h3>
-      <h3>😄 He / Him </h3>
-      <h3>⚡️ Cat </h3>
+     <h3>👋 Hello, I'm <strong>N</strong>!</h3>
+
+<h3>🧠 Currently Exploring</h3>
+<p>I'm diving into <strong>Flutter</strong>, exploring the world of cross-platform mobile development.</p>
+
+<h3>🤝 Looking to Collaborate On</h3>
+<p>Open-source projects, innovative app ideas, or anything tech-related. Let's build something awesome together!</p>
+
+<h3>🔍 Seeking Help With</h3>
+<p>Advanced <strong>Flutter</strong> animations and state management. Got tips? I'm all ears!</p>
+
+<h3>💬 Ask Me Anything</h3>
+<p>From tech trends to favorite coding practices, I'm open to questions. Don't hesitate to reach out!</p>
+
+<h3>😄 Pronouns</h3>
+<p><strong>He / Him</strong></p>
+
+<h3>⚡️ Fun Fact</h3>
+<p>I have a cat who loves to code! 🐾</p>
     </td>
     <td>
       <a href="https://wakatime.com/@WaldanZubary" target="_blank">
@@ -31,7 +43,7 @@
   </tr>
 </table>
 
-```
+
 
 
 
