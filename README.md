@@ -13,11 +13,13 @@
 
 <img width="50%" alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
       <br><pre>
-    💼 BSC @ UFMG • Back-end dev • Platform Engineer
-    💻 System programming languages • DevOps 
-    📖 Software architecture • Distributed systems
-    🎮 Music • Games • Anime • Code • Art
-    🐾 Muffin 🐰 • Cake & Cookie & Pudim & Quindim 🐤🐥
+      <h3>👩‍💻 I'm N</h3>
+      <h3>🧠 I'm currently learning Flutter</h3>
+      <h3>👯‍♀️ I'm looking to collaborate on...</h3>
+      <h3>🤔 I'm looking for help with...</h3>
+      <h3>💬 Ask me Anything</h3>
+      <h3>😄 He / Him </h3>
+      <h3>⚡️ Cat </h3>
 </pre>
 
 
