@@ -12,8 +12,8 @@
 
 
 
-<div style="display: flex; justify-content: space-between;">
-  <div>
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
     <h3>👩‍💻 I'm currently working on...</h3>
     <h3>🧠 I'm currently learning...</h3>
     <h3>👯‍♀️ I'm looking to collaborate on...</h3>
@@ -23,12 +23,13 @@
     <h3>😄 Pronouns...</h3>
     <h3>⚡️ Fun fact...</h3>
   </div>
-  <div>
+  <div style="margin-left: 20px;">
     <a href="https://wakatime.com/@WaldanZubary" target="_blank">
       <img width="30%" alt="Weekly Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
     </a>
   </div>
 </div>
+
 
 
 
