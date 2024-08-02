@@ -12,10 +12,10 @@
 
 
 
-<table style="width: 100%; border-collapse: collapse;">
+<table>
   <tr>
-    <td style="width: 70%; vertical-align: top;">
-      <h3>👩‍💻 I'm currently working on..sdakmdskamskdmaskmdma.</h3>
+    <td>
+      <h3>👩‍💻 I'm currently working on...</h3>
       <h3>🧠 I'm currently learning...</h3>
       <h3>👯‍♀️ I'm looking to collaborate on...</h3>
       <h3>🤔 I'm looking for help with...</h3>
@@ -24,7 +24,7 @@
       <h3>😄 Pronouns...</h3>
       <h3>⚡️ Fun fact...</h3>
     </td>
-    <td style="width: 100%; vertical-align: top;">
+    <td>
       <a href="https://wakatime.com/@WaldanZubary" target="_blank">
         <img width="100%" alt="Weekly Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
       </a>
