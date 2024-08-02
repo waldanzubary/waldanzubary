@@ -59,6 +59,7 @@ class Tools extends Me {
 
 <div align="center">
   <a href="https://visitcount.itsvg.in">
+    <img src="https://komarev.com/ghpvc/?username=WaldanZubary&color=A109C5" alt="Views" />
     <img src="https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0" alt="Visitor Count"/> 
     <img src="https://wakatime.com/badge/user/0dbc9361-e297-40ce-80a4-359fc78e3c1b.svg" alt="WAKATIME"/> 
     
