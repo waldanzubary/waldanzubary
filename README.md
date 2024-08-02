@@ -38,7 +38,7 @@
 
 
 
-# 💻 Tech Stack:
+
 
 ```dart
 Tools I Used for Project
