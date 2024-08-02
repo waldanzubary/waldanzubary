@@ -3,8 +3,8 @@
 
 
 
+<img src="[kyubey-ezgif.com-rotate.gif](https://github.com/waldanzubary/waldanzubary/blob/main/kyubey-ezgif.com-rotate.gif)f" height="70" />(https://git.io/typing-svg)
 
-[kyubey-ezgif.com-rotate.gif](https://github.com/waldanzubary/waldanzubary/blob/main/kyubey-ezgif.com-rotate.gif)
 
 # 📊 Stats:
 
