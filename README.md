@@ -13,13 +13,13 @@
 
 <img width="50%" alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
 <pre>
-      <h5>👩‍💻 I'm N</h5>
-      <h5>🧠 I'm currently learning Flutter</h5>
-      <h5>👯‍♀️ I'm looking to collaborate on...</h5>
-      <h5>🤔 I'm looking for help with...</h5>
-      <h5>💬 Ask me Anything</h5>
-      <h5>😄 He / Him </h5>
-      <h5>⚡️ Cat </h5>
+      <p>👩‍💻 I'm N</h5>
+      <p>🧠 I'm currently learning Flutter</p>
+      <p>👯‍♀️ I'm looking to collaborate on...</p>
+      <p>🤔 I'm looking for help with...</p>
+      <p>💬 Ask me Anything</p>
+      <p>😄 He / Him </p>
+      <p>⚡️ Cat </p>
 </pre>
 
 
