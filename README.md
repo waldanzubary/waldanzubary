@@ -54,12 +54,14 @@ class Tools extends Me {
 ```
 
 ##
-![](https://github-profile-trophy.vercel.app/?username=waldanzubary&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=waldanzubary&theme=radical&no-frame=true&no-bg=true&margin-w=4) 
 
 
 <div align="center">
   <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0" alt="Visitor Count"/>
+    <img src="https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0" alt="Visitor Count"/> 
+    <img src="[https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0](https://wakatime.com/badge/user/0dbc9361-e297-40ce-80a4-359fc78e3c1b.svg)" alt="WAKATIME"/> 
+    
   </a>
 </div>
 
