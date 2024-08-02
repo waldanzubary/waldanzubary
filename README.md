@@ -12,8 +12,7 @@
 
 
 
-<img width="50%" alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Playtime%20Stats">
-<pre>
+<img width="50%"   alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Playtime%20Stats"> <pre>
    👨‍💻 Aspiring Software Engineer
    🧠 Currently diving into Web Developer
    👥 Looking to collaborate on exciting projects
@@ -54,11 +53,14 @@ class Tools extends Me {
 }
 ```
 
-## 🏆 GitHub Trophies
+#
 ![](https://github-profile-trophy.vercel.app/?username=waldanzubary&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
 
-
-[![](https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0)](https://visitcount.itsvg.in)
+<div align="center">
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0" alt="Visitor Count"/>
+  </a>
+</div>
 
 
