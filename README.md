@@ -8,29 +8,23 @@
 
 
 
+ <a href="https://wakatime.com/@WaldanZubary" target="_blank">
+        <img width="20%" alt="Weekly Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
+      </a>
 
 
 
-
-<table>
-  <tr>
-    <td>
-    <pre>
+<pre>
     💼 BSC @ UFMG • Back-end dev • Platform Engineer
     💻 System programming languages • DevOps 
     📖 Software architecture • Distributed systems
     🎮 Music • Games • Anime • Code • Art
     🐾 Muffin 🐰 • Cake & Cookie & Pudim & Quindim 🐤🐥
 </pre>
-<p>I have a cat who loves to code! 🐾</p>
-    </td>
-    <td>
-      <a href="https://wakatime.com/@WaldanZubary" target="_blank">
-        <img width="100%" alt="Weekly Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
-      </a>
-    </td>
-  </tr>
-</table>
+
+   
+     
+   
 
 
 
