@@ -12,25 +12,19 @@
 
 
 
-<table>
-  <tr>
-    <td style="border: none;">
-      <h3>👩‍💻 I'm currently working on...</h3>
-      <h3>🧠 I'm currently learning...</h3>
-      <h3>👯‍♀️ I'm looking to collaborate on...</h3>
-      <h3>🤔 I'm looking for help with...</h3>
-      <h3>💬 Ask me about...</h3>
-      <h3>📫 How to reach me...</h3>
-      <h3>😄 Pronouns...</h3>
-      <h3>⚡️ Fun fact...</h3>
-    </td>
-    <td style="border: none;">
-      <a href="https://wakatime.com/@WaldanZubary" target="_blank">
-        <img width="100%" alt="Weekly Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats">
-      </a>
-    </td>
-  </tr>
-</table>
+**👩‍💻 I'm currently working on...**  
+**🧠 I'm currently learning...**  
+**👯‍♀️ I'm looking to collaborate on...**  
+**🤔 I'm looking for help with...**  
+**💬 Ask me about...**  
+**📫 How to reach me...**  
+**😄 Pronouns...**  
+**⚡️ Fun fact...**
+
+<br>
+
+[![Weekly Stats](https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Weekly%20Stats)](https://wakatime.com/@WaldanZubary)
+
 
 
 
