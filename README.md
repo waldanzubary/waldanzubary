@@ -1,10 +1,9 @@
 
-<div style="display: flex; align-items: center;">
-    <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="50" style="margin-right: 10px;" />
-    <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Waldan+Zubary!+%F0%9F%91%8B" alt="Typing SVG" />
-    </a>
-</div>
+<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="50" align="left" style="margin-right: 10px;" />
+<a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Waldan+Zubary!+%F0%9F%91%8B" alt="Typing SVG" />
+</a>
+
 
 
 
