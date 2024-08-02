@@ -15,13 +15,13 @@
 <table>
   <tr>
     <td>
-     <h3>👩‍💻</h3>
-      <h3>🧠 I'm currently learning Flutter</h3>
-      <h3>👯‍♀️ I'm looking to collaborate on...</h3>
-      <h3>🤔 I'm looking for help with...</h3>
-      <h3>💬 Ask me Anything</h3>
-      <h3>😄 He / Him </h3>
-      <h3>⚡️ Cat </h3>
+    <pre>
+    💼 BSC @ UFMG • Back-end dev • Platform Engineer
+    💻 System programming languages • DevOps 
+    📖 Software architecture • Distributed systems
+    🎮 Music • Games • Anime • Code • Art
+    🐾 Muffin 🐰 • Cake & Cookie & Pudim & Quindim 🐤🐥
+</pre>
 <p>I have a cat who loves to code! 🐾</p>
     </td>
     <td>
