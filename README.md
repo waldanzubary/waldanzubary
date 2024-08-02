@@ -10,19 +10,18 @@
 
 
 
-
+```dart
 
 <table>
   <tr>
     <td>
       <h3>👩‍💻 I'm currently working on...</h3>
-      <h3>🧠 I'm currently learning...</h3>
+      <h3>🧠 I'm currently learning Flutter</h3>
       <h3>👯‍♀️ I'm looking to collaborate on...</h3>
       <h3>🤔 I'm looking for help with...</h3>
-      <h3>💬 Ask me about...</h3>
-      <h3>📫 How to reach me...</h3>
-      <h3>😄 Pronouns...</h3>
-      <h3>⚡️ Fun fact...</h3>
+      <h3>💬 Ask me Anything</h3>
+      <h3>😄 He / Him </h3>
+      <h3>⚡️ Cat </h3>
     </td>
     <td>
       <a href="https://wakatime.com/@WaldanZubary" target="_blank">
@@ -32,6 +31,7 @@
   </tr>
 </table>
 
+```
 
 
 
