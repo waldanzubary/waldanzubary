@@ -55,8 +55,9 @@ class Tools extends Me {
 
 ##
 <div align="center">
-  ![](https://github-profile-trophy.vercel.app/?username=waldanzubary&theme=radical&no-frame=true&no-bg=true&margin-w=4) 
+  <img src="https://github-profile-trophy.vercel.app/?username=waldanzubary&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Profile Trophy"/>
 </div>
+
 
 <div align="center">
   <a href="https://visitcount.itsvg.in">
