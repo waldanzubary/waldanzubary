@@ -46,12 +46,13 @@ Tools I Used for Project
 
 class About extends Me { 
   const myTools = {  
-    "ProgramingLanguages" : { "Dart", "Php", "Python", "Javascript", "Node.Js", },
-    "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Markdown" },
+    "ProgramingLanguages" : { "Dart", "Php", "Python", "Javascript", "Node.Js"},
+    "OtherLanguages" : { "HTML", "CSS", "Json", },
+    "Framework" : { "Laravel"},
     "Database" : { "Firebase", "MySQL" },
     "Editors" : { "Vscode" },
     "Platforms" : { "Windows" },
-    "OtherTools" : { "Git", "Figma" }
+    "OtherTools" : { "Git", "Figma", "Postman }
   };
 }
 ```
