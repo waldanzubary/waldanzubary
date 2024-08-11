@@ -65,7 +65,7 @@ class Tools extends Me {
     <img src="https://visitcount.itsvg.in/api?id=waldanzubary&icon=0&color=0" alt="Visitor Count"/> 
 
     
-  </a>
+  </a>s
 </div>
 
 
