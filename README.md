@@ -20,7 +20,6 @@
    🐱 Cat cat AND CAT !
 </pre>
 
-s
 
 
    
@@ -67,5 +66,5 @@ class Tools extends Me {
     
   </a>
 </div>
-s
+
 
