@@ -12,7 +12,7 @@
    👨‍💻 Software Engineer  
    🧠 Currently diving into Web Developer
    👥 Looking to collaborate on exciting projects
-   😄 Pronouns: He/Him
+   😄 Pronouns: He/Him 
    🐱 Cat cat AND CAT !
 </pre>
 
