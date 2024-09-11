@@ -1,3 +1,5 @@
+<pre>
+
 <div align="center">
   <img src="https://github.com/waldanzubary/waldanzubary/blob/main/kyubey.gif" height="70"/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&center=true&vCenter=true&repeat=false&width=435&lines=Hi%2C+I'm+Waldan+Zubary!+%F0%9F%91%8B" alt="Typing animation"/>
@@ -7,8 +9,9 @@
   
   
 #      
- <img width="100%" alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?
-  username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Playtime%20Stats"> <pre>
+
+ 
+ <pre>
    👨‍💻 Software Engineer   
    🧠 Currently diving into Web Developer
    👥 Looking to collaborate on exciting projects 
