@@ -4,11 +4,11 @@
   <img src="https://github.com/waldanzubary/waldanzubary/blob/main/kyubey-ezgif.com-rotate.gif" height="70"/> 
 </div>
      
- 
+  
   
 #      
     
-<img width="51%"   alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Playtime%20Stats"> <pre>
+<img width="40%"   alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Playtime%20Stats"> <pre>
    👨‍💻 Software Engineer   
    🧠 Currently diving into Web Developer
    👥 Looking to collaborate on exciting projects 
