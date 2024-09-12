@@ -1,4 +1,4 @@
-<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
 
 <div align="center">
   <img src="https://github.com/waldanzubary/waldanzubary/blob/main/kyubey.gif" height="70"/>
@@ -61,3 +61,4 @@ class Tools extends Me {
 </div>
 
 
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
