@@ -59,5 +59,102 @@ class Tools extends Me {
   </a>
 </div>
 
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/><img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
+<img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
 
 <img src="https://github.com/waldanzubary/waldanzubary/blob/main/JwN.gif" width="100%"/>
