@@ -49,6 +49,7 @@ class Tools extends Me {
   <img src="https://github-profile-trophy.vercel.app/?username=waldanzubary&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Profile Trophy"/>
 </div>
 
+[![wakatime](https://wakatime.com/badge/user/0dbc9361-e297-40ce-80a4-359fc78e3c1b.svg)](https://wakatime.com/@0dbc9361-e297-40ce-80a4-359fc78e3c1b)
 <br>
 
 <div align="center">
