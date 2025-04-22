@@ -1,5 +1,4 @@
-[![wakatime](https://wakatime.com/badge/user/0dbc9361-e297-40ce-80a4-359fc78e3c1b.svg)](https://wakatime.com/@0dbc9361-e297-40ce-80a4-359fc78e3c1b)
-  
+<img width="100%" alt="Weekly Stats" align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=WaldanZubary&border_radius=5px&theme=dark&bg_color=1f1f1f&border_color=1f1f1f&icon_color=58a6ff&show_icons=true&disable_animations=true&custom_title=Playtime%20Stats">  
  
   
  
