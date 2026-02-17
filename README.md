@@ -9,7 +9,7 @@ class Tools extends Me {
     "OtherLanguages" : { "HTML", "CSS", "Json", },
     "Framework" : { "Laravel", "NextJS"},
     "Database" : { "Firebase", "MySQL" "PGSQL" },
-    "Editors" : { "Vscode" },
+    "Editors" : { "Vscode" "Antigravity"},
     "Platforms" : { "Windows" },
     "OtherTools" : { "Git", "Figma", "Postman }
   };
