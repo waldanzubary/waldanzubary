@@ -4,12 +4,6 @@
 
 ```dart
 
-Currently working at
--
-
-My Project
--
-
 
 
 
