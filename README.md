@@ -1,6 +1,7 @@
-u buy me sell we happy <img width="237" height="185" alt="HappyJonahHillGIFbyWeTV" src="https://github.com/user-attachments/assets/2ac2ddd4-3d25-48b3-a65f-ec45d86f800a" />
+<div align="center">
 
- 
+###U BUY ME SELL WE HAPPY 🤝
+</div>
 
 ```dart
 
