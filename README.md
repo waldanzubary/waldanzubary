@@ -1,6 +1,8 @@
 <div align="center">
 
-###U BUY ME SELL WE HAPPY 🤝
+<span style="font-size: 48px;"><b>Hellaw, im Waldan Zubary</b></span>
+
+
 </div>
 
 ```dart
