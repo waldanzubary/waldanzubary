@@ -107,16 +107,26 @@ function svg(theme, commits, date) {
   <text x="42" y="52" fill="${t.accent}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" letter-spacing="3">&gt;&lt;&gt; WALDAN ZUBARY</text>
   <text x="42" y="78" fill="${t.muted}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.5">AI ENGINEER · SOFTWARE ENGINEER</text>
 
-  <g transform="translate(248 190) scale(${s}) translate(-32 -16)">
-    ${dots("shade", t.shade)}
-    ${dots("fins", t.fins)}
-    ${dots("outline", t.outline, 0.76)}
-    ${dots("eyes", t.eyes, 0.8)}
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="248 190;248 185;248 190;248 195;248 190" keyTimes="0;0.25;0.5;0.75;1" dur="6s" repeatCount="indefinite"/>
+    <g transform="scale(${s}) translate(-32 -16)">
+      ${dots("shade", t.shade)}
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 40 16;3 40 16;0 40 16;-3 40 16;0 40 16" keyTimes="0;0.25;0.5;0.75;1" dur="2.4s" repeatCount="indefinite"/>
+        ${dots("fins", t.fins)}
+      </g>
+      ${dots("outline", t.outline, 0.76)}
+      <g>
+        <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.7;0.72;0.74;1" dur="5.5s" repeatCount="indefinite"/>
+        ${dots("eyes", t.eyes, 0.8)}
+      </g>
+    </g>
   </g>
 
-  <g opacity=".5" fill="${t.accent}">
-    <circle cx="84" cy="246" r="1.4"/><circle cx="102" cy="258" r="1"/><circle cx="118" cy="238" r=".8"/>
-    <circle cx="356" cy="112" r="1.2"/><circle cx="372" cy="96" r=".8"/><circle cx="390" cy="120" r="1"/>
+  <g fill="${t.accent}" opacity=".22">
+    <circle cx="94" cy="246" r="1.4"><animate attributeName="cy" values="246;230;214" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".4;.15;0" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="116" cy="250" r="1"><animate attributeName="cy" values="250;236;222" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;.12;0" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="366" cy="112" r="1.2"><animate attributeName="cy" values="112;98;84" dur="3.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".4;.15;0" dur="3.6s" repeatCount="indefinite"/></circle>
   </g>
 
   <path d="M470 126 L440 142 L470 158 Z" fill="${t.panel}" stroke="${t.border}"/>
@@ -141,7 +151,7 @@ function readmeBlock(commits, date) {
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="${base}/fish-dark.svg?v=${v}">
     <source media="(prefers-color-scheme: light)" srcset="${base}/fish-light.svg?v=${v}">
-    <img src="${base}/fish-light.svg?v=${v}" alt="Waldan's Fish OS fish with ${commits} commits today" width="900">
+    <img src="${base}/fish-light.svg?v=${v}" alt="Waldan's animated fish with ${commits} commits today" width="900">
   </picture>
 </p>
 <!-- FISH:END -->`;
