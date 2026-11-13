@@ -188,31 +188,31 @@ function cell(value) {
   return String(value).replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 }
 
-function blogBlock(posts) {
-  if (!posts.length) return "<!-- BLOG:START -->\n_No published notes yet._\n<!-- BLOG:END -->";
-  const rows = posts
-    .map((post, index) => `| ${String(index + 1).padStart(2, "0")} | [${cell(post.title)}](${post.link}) | ${dateLabel(post.date)} |`)
-    .join("\n");
-  return `<!-- BLOG:START -->
-| # | Note | Date |
-|---:|---|---|
-${rows}
-<!-- BLOG:END -->`;
-}
-
-function commitsBlock(commits) {
-  if (!commits.length) return "<!-- COMMITS:START -->\n_No public commits yet._\n<!-- COMMITS:END -->";
-  const rows = commits
+function updatesBlock(posts, commits) {
+  const rows = [
+    ...posts.map((post) => ({
+      type: "note",
+      text: `[${cell(post.title)}](${post.link})`,
+      date: post.date,
+    })),
+    ...commits.map((commit) => ({
+      type: "commit",
+      text: `[${cell(commit.repo)} — ${cell(commit.message).slice(0, 64)}](${commit.url})`,
+      date: commit.date,
+    })),
+  ];
+  if (!rows.length) return "<!-- UPDATES:START -->\n_No updates yet._\n<!-- UPDATES:END -->";
+  const table = rows
     .map(
-      (commit, index) =>
-        `| ${String(index + 1).padStart(2, "0")} | [${cell(commit.repo)}](https://github.com/${commit.repo}) | [${cell(commit.message).slice(0, 64)}](${commit.url}) | ${dateLabel(commit.date)} |`,
+      (row, index) =>
+        `| ${String(index + 1).padStart(2, "0")} | ${row.text} | ${row.type} | ${dateLabel(row.date)} |`,
     )
     .join("\n");
-  return `<!-- COMMITS:START -->
-| # | Repository | Commit | Date |
+  return `<!-- UPDATES:START -->
+| # | Update | Type | Date |
 |---:|---|---|---|
-${rows}
-<!-- COMMITS:END -->`;
+${table}
+<!-- UPDATES:END -->`;
 }
 
 function replaceBlock(readme, name, block) {
@@ -251,16 +251,19 @@ try {
     ? readme.replace(/<!-- FISH:START -->[\s\S]*?<!-- FISH:END -->/, block)
     : `${block}\n\n${readme}`;
 
+  let posts = [];
+  let latestCommits = [];
   try {
-    readme = replaceBlock(readme, "BLOG", blogBlock(await fetchBlog()));
+    posts = await fetchBlog();
   } catch (error) {
     console.warn(`blog table skipped: ${error.message}`);
   }
   try {
-    readme = replaceBlock(readme, "COMMITS", commitsBlock(await fetchCommits()));
+    latestCommits = await fetchCommits();
   } catch (error) {
     console.warn(`commit table skipped: ${error.message}`);
   }
+  readme = replaceBlock(readme, "UPDATES", updatesBlock(posts, latestCommits));
 
   await fs.writeFile(readmePath, readme);
   console.log(`media updated: ${commits} commits, ${FRAME_COUNT} frames, ${SECONDS}s @ ${FPS}fps`);
