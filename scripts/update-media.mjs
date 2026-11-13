@@ -13,7 +13,7 @@ const LOGIN = "waldanzubary";
 const REPO = "waldanzubary/waldanzubary";
 const EMBED = process.env.EMBED_URL || "https://www.waldan.my.id/embed/sea";
 const SECONDS = Math.max(5, Number(process.env.FISH_SECONDS) || 60);
-const FPS = Math.max(4, Number(process.env.FISH_FPS) || 8);
+const FPS = Math.max(4, Number(process.env.FISH_FPS) || 6);
 const FRAME_COUNT = Math.round(SECONDS * FPS);
 const FRAME_DELAY = Math.round(1000 / FPS);
 
@@ -118,7 +118,7 @@ function readmeBlock(commits, date) {
 <p align="center">
   <picture>
     <source type="image/webp" srcset="${base}/fish.webp?v=${v}">
-    <img src="${base}/fish.gif?v=${v}" alt="Waldan's animated sea with ${commits} commits today" width="1000">
+    <img src="${base}/fish.gif?v=${v}" alt="Waldan's animated sea with ${commits} commits today" width="800">
   </picture>
 </p>
 <!-- FISH:END -->`;
@@ -133,7 +133,7 @@ const browser = await chromium.launch({
   args: ["--no-sandbox"],
 });
 const page = await browser.newPage({
-  viewport: { width: 1000, height: 420 },
+  viewport: { width: 800, height: 336 },
   deviceScaleFactor: 1,
 });
 
@@ -142,7 +142,7 @@ try {
   const webpPath = path.join(dir, "fish.webp");
   execFileSync(
     process.env.IMG2WEBP || "img2webp",
-    ["-loop", "0", "-lossy", "-q", "75", "-d", String(FRAME_DELAY), "-o", webpPath, ...frames],
+    ["-loop", "0", "-lossy", "-q", "60", "-m", "6", "-d", String(FRAME_DELAY), "-o", webpPath, ...frames],
     { stdio: "inherit" },
   );
   const gif = encodeGif(frames);
@@ -161,3 +161,4 @@ try {
   await browser.close();
   await fs.rm(dir, { recursive: true, force: true });
 }
+

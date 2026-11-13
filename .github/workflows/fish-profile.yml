@@ -33,7 +33,7 @@ jobs:
           PROFILE_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FISH_SECONDS: "60"
-          FISH_FPS: "8"
+          FISH_FPS: "6"
         run: node scripts/update-media.mjs
 
       - name: Commit fish
@@ -47,3 +47,4 @@ jobs:
           fi
           git commit -m "chore: update fish profile"
           git push
+
