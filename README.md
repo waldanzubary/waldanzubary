@@ -1,9 +1,9 @@
 <!-- FISH:START -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish-dark.svg?v=20261113-2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish-light.svg?v=20261113-2">
-    <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish-light.svg?v=20261113-2" alt="Waldan's animated fish with 2 commits today" width="900">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish-dark.svg?v=20261113-3">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish-light.svg?v=20261113-3">
+    <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish-light.svg?v=20261113-3" alt="Waldan's animated fish with 3 commits today" width="900">
   </picture>
 </p>
 <!-- FISH:END -->
