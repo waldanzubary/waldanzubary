@@ -10,7 +10,7 @@
 ## > updates
 
 <!-- UPDATES:START -->
-| # | Update | Type | Date |
-|---:|---|---|---|
-| 01 | _Loading updates..._ | note | — |
+| # | Blog | Latest Commit |
+|---:|---|---|
+| 01 | _Loading updates..._ | — |
 <!-- UPDATES:END -->

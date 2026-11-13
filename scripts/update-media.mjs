@@ -189,29 +189,21 @@ function cell(value) {
 }
 
 function updatesBlock(posts, commits) {
-  const rows = [
-    ...posts.map((post) => ({
-      type: "note",
-      text: `[${cell(post.title)}](${post.link})`,
-      date: post.date,
-    })),
-    ...commits.map((commit) => ({
-      type: "commit",
-      text: `[${cell(commit.repo)} — ${cell(commit.message).slice(0, 64)}](${commit.url})`,
-      date: commit.date,
-    })),
-  ];
-  if (!rows.length) return "<!-- UPDATES:START -->\n_No updates yet._\n<!-- UPDATES:END -->";
-  const table = rows
-    .map(
-      (row, index) =>
-        `| ${String(index + 1).padStart(2, "0")} | ${row.text} | ${row.type} | ${dateLabel(row.date)} |`,
-    )
-    .join("\n");
+  const count = Math.max(posts.length, commits.length);
+  if (!count) return "<!-- UPDATES:START -->\n_No updates yet._\n<!-- UPDATES:END -->";
+  const rows = Array.from({ length: count }, (_, index) => {
+    const post = posts[index];
+    const commit = commits[index];
+    const blog = post ? `[${cell(post.title)}](${post.link})` : "";
+    const latest = commit
+      ? `[${cell(commit.repo)} — ${cell(commit.message).slice(0, 64)}](${commit.url})`
+      : "";
+    return `| ${String(index + 1).padStart(2, "0")} | ${blog} | ${latest} |`;
+  }).join("\n");
   return `<!-- UPDATES:START -->
-| # | Update | Type | Date |
-|---:|---|---|---|
-${table}
+| # | Blog | Latest Commit |
+|---:|---|---|
+${rows}
 <!-- UPDATES:END -->`;
 }
 
