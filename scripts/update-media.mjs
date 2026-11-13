@@ -124,6 +124,101 @@ function readmeBlock(commits, date) {
 <!-- FISH:END -->`;
 }
 
+function decodeXml(value) {
+  return value
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+}
+
+async function fetchBlog() {
+  const response = await fetch("https://www.waldan.my.id/rss.xml", {
+    headers: { "User-Agent": "fish-profile-updater" },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!response.ok) throw new Error(`RSS ${response.status}`);
+  const xml = await response.text();
+  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)]
+    .map((match) => {
+      const item = match[1];
+      const title = decodeXml(item.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? "").trim();
+      const link = decodeXml(item.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? "").trim();
+      const pubDate = item.match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1]?.trim() ?? "";
+      return { title, link, date: pubDate ? new Date(pubDate) : null };
+    })
+    .filter((item) => item.title && item.link)
+    .slice(0, 6);
+}
+
+async function fetchCommits() {
+  const token = process.env.PROFILE_TOKEN || process.env.GITHUB_TOKEN;
+  const response = await fetch(
+    "https://api.github.com/search/commits?q=author:waldanzubary&sort=committer-date&order=desc&per_page=7",
+    {
+      headers: {
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        Accept: "application/vnd.github+json",
+        "User-Agent": "fish-profile-updater",
+      },
+      signal: AbortSignal.timeout(15000),
+    },
+  );
+  if (!response.ok) throw new Error(`commit search ${response.status}`);
+  const payload = await response.json();
+  return (payload.items ?? [])
+    .filter((item) => item.repository && !item.repository.private)
+    .slice(0, 7)
+    .map((item) => ({
+      repo: item.repository.full_name,
+      message: (item.commit?.message ?? "").split("\n")[0],
+      url: item.html_url,
+      date: item.commit?.committer?.date ? new Date(item.commit.committer.date) : null,
+    }));
+}
+
+function dateLabel(value) {
+  if (!value || Number.isNaN(value.getTime())) return "—";
+  return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric" }).format(value);
+}
+
+function cell(value) {
+  return String(value).replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
+}
+
+function blogBlock(posts) {
+  if (!posts.length) return "<!-- BLOG:START -->\n_No published notes yet._\n<!-- BLOG:END -->";
+  const rows = posts
+    .map((post, index) => `| ${String(index + 1).padStart(2, "0")} | [${cell(post.title)}](${post.link}) | ${dateLabel(post.date)} |`)
+    .join("\n");
+  return `<!-- BLOG:START -->
+| # | Note | Date |
+|---:|---|---|
+${rows}
+<!-- BLOG:END -->`;
+}
+
+function commitsBlock(commits) {
+  if (!commits.length) return "<!-- COMMITS:START -->\n_No public commits yet._\n<!-- COMMITS:END -->";
+  const rows = commits
+    .map(
+      (commit, index) =>
+        `| ${String(index + 1).padStart(2, "0")} | [${cell(commit.repo)}](https://github.com/${commit.repo}) | [${cell(commit.message).slice(0, 64)}](${commit.url}) | ${dateLabel(commit.date)} |`,
+    )
+    .join("\n");
+  return `<!-- COMMITS:START -->
+| # | Repository | Commit | Date |
+|---:|---|---|---|
+${rows}
+<!-- COMMITS:END -->`;
+}
+
+function replaceBlock(readme, name, block) {
+  return readme.replace(new RegExp(`<!-- ${name}:START -->[\\s\\S]*?<!-- ${name}:END -->`), block);
+}
+
 const day = wibDay();
 const commits = await countCommits();
 const dir = await fs.mkdtemp(path.join(os.tmpdir(), "fish-frames-"));
@@ -155,6 +250,18 @@ try {
   readme = readme.includes("<!-- FISH:START -->")
     ? readme.replace(/<!-- FISH:START -->[\s\S]*?<!-- FISH:END -->/, block)
     : `${block}\n\n${readme}`;
+
+  try {
+    readme = replaceBlock(readme, "BLOG", blogBlock(await fetchBlog()));
+  } catch (error) {
+    console.warn(`blog table skipped: ${error.message}`);
+  }
+  try {
+    readme = replaceBlock(readme, "COMMITS", commitsBlock(await fetchCommits()));
+  } catch (error) {
+    console.warn(`commit table skipped: ${error.message}`);
+  }
+
   await fs.writeFile(readmePath, readme);
   console.log(`media updated: ${commits} commits, ${FRAME_COUNT} frames, ${SECONDS}s @ ${FPS}fps`);
 } finally {
