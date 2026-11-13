@@ -169,7 +169,7 @@ async function fetchCommits() {
   if (!response.ok) throw new Error(`commit search ${response.status}`);
   const payload = await response.json();
   return (payload.items ?? [])
-    .filter((item) => item.repository && !item.repository.private)
+    .filter((item) => item.repository)
     .slice(0, 7)
     .map((item) => ({
       repo: item.repository.full_name,
