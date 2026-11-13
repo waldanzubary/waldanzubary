@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Waldan Zubary fish: 3 commits today">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Waldan Zubary fish: 2 commits today">
   <rect width="900" height="300" rx="14" fill="#04121C"/>
   <rect x="1" y="1" width="898" height="298" rx="13" fill="none" stroke="#1B4B54" opacity=".75"/>
   <text x="42" y="52" fill="#59F1E3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" letter-spacing="3">&gt;&lt;&gt; WALDAN ZUBARY</text>
@@ -29,7 +29,7 @@
   <path d="M470 126 L440 142 L470 158 Z" fill="#061A24" stroke="#1B4B54"/>
   <rect x="468" y="92" width="390" height="102" rx="8" fill="#061A24" stroke="#1B4B54"/>
   <text x="490" y="126" fill="#EAF4F6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">"lapar... commit dulu"</text>
-  <text x="490" y="154" fill="#59F1E3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1">COMMITS TODAY: 03</text>
+  <text x="490" y="154" fill="#59F1E3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1">COMMITS TODAY: 02</text>
   <text x="490" y="176" fill="#7FA6B2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2026-11-13 · WIB</text>
 
   <path d="M42 264 C150 252 220 276 310 264 S470 252 560 264 S760 276 858 258" fill="none" stroke="#59F1E3" stroke-width="1" opacity=".25"/>
