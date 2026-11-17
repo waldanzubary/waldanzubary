@@ -1,8 +1,8 @@
 <!-- FISH:START -->
 <p align="center">
   <picture>
-    <source type="image/webp" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.webp?v=20261117-0-360">
-    <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.gif?v=20261117-0-360" alt="Waldan's animated sea with 0 commits today" width="800">
+    <source type="image/webp" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.webp?v=20261118-0-360">
+    <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.gif?v=20261118-0-360" alt="Waldan's animated sea with 0 commits today" width="800">
   </picture>
 </p>
 <!-- FISH:END -->
