@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.waldan.my.id">Blog</a> &middot;
   <a href="https://github.com/waldanzubary">GitHub</a> &middot;
-  <a href="https://asciimotion.waldan.my.id/">ASCII Motion</a>
 </p>
 
 ---
