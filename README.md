@@ -14,13 +14,6 @@ A browser-based studio for turning videos, GIFs, and photos into animated color 
 
 ---
 
-## Writing
-
-I occasionally write about the things I build.
-
-- [Membuat README GitHub WebP Animated: Laut Waldan yang Hidup](https://www.waldan.my.id/blog/membuat-readme-webp-animated)
-
----
 
 <details>
   <summary>Latest notes &amp; commits</summary>
