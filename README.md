@@ -1,69 +1,31 @@
 <p align="center">
   <a href="https://asciimotion.waldan.my.id/">
-    <img src="./assets/asciimotion-header-2x.gif" alt="Animated ASCII Starry Night sky — ASCII Motion" width="100%" />
+    <img src="./assets/asciimotion-header-2x.gif" alt="Animated ASCII Starry Night sky - ASCII Motion" width="100%" />
   </a>
 </p>
 
 <h1 align="center">Waldan Zubary</h1>
-<p align="center"><sub>LOCAL-FIRST INTERFACES&nbsp; / &nbsp;PIXEL-NATIVE TOOLS&nbsp; / &nbsp;EDGE APPS</sub></p>
-
+<p align="center">Web developer building apps and tools for the web.</p>
 <p align="center">
-  <a href="https://asciimotion.waldan.my.id/"><img src="https://img.shields.io/badge/LIVE-asciimotion.waldan.my.id-B6FF3B?style=for-the-badge&labelColor=0B1020" alt="ASCII Motion live" /></a>
-  <a href="https://www.waldan.my.id"><img src="https://img.shields.io/badge/BLOG-waldan.my.id-4DE8FF?style=for-the-badge&labelColor=0B1020" alt="Waldan's blog" /></a>
-  <a href="https://github.com/waldanzubary"><img src="https://img.shields.io/badge/GITHUB-waldanzubary-C9D1D9?style=for-the-badge&labelColor=0B1020&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
-
-<p align="center">
-  I build small, sharp tools that turn raw media into things worth keeping —<br />
-  mostly in the browser, often at the edge.
+  <a href="https://www.waldan.my.id">Blog</a> &middot;
+  <a href="https://github.com/waldanzubary">GitHub</a> &middot;
+  <a href="https://asciimotion.waldan.my.id/">ASCII Motion</a>
 </p>
 
 ---
 
-## / featured build
+## Featured project
 
 ### ASCII Motion
 
-**Video / GIF / photo → colored animated ASCII.**
+A browser-based studio for turning videos, GIFs, and photos into animated color ASCII art. Render locally, export, and publish to a public archive.
 
-A local-first studio for rendering media into animated color ASCII, exporting it as PNG, WebP, GIF, WebM, or TXT, and publishing finished pieces into a curated public archive.
-
-[Open the live app](https://asciimotion.waldan.my.id/) · [Open the studio](https://asciimotion.waldan.my.id/studio) · [Browse the archive](https://asciimotion.waldan.my.id/#archive)
-
-- Browser-side renderer: media → ASCII on `<canvas>`.
-- Animated GIF pipeline with adaptive width, FPS, and palette.
-- Public masonry archive backed by Cloudflare D1, with server-verified admin controls.
-- Next.js 16 on Cloudflare Workers at `asciimotion.waldan.my.id`.
-
-<p align="center">
-  <a href="https://asciimotion.waldan.my.id/"><img src="https://img.shields.io/badge/OPEN_LIVE-asciimotion.waldan.my.id-B6FF3B?style=for-the-badge&labelColor=0B1020&logo=cloudflare&logoColor=0B1020" alt="Open ASCII Motion live" /></a>
-</p>
-
----
-
-## / toolbox
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
-  <img src="https://img.shields.io/badge/Cloudflare_D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1" />
-  <img src="https://img.shields.io/badge/Canvas_2D-0B1020?style=flat-square&logo=html5&logoColor=white" alt="Canvas 2D" />
-</p>
-
----
-
-## / currently
-
-- Building **ASCII Motion** — refining the renderer, archive, and publishing flow.
-- Exploring local-first media tools, edge runtimes, and interfaces that feel like instruments.
+[Live](https://asciimotion.waldan.my.id/) | [Studio](https://asciimotion.waldan.my.id/studio) | [Archive](https://asciimotion.waldan.my.id/#archive)
 
 ---
 
 <details>
-  <summary><strong>Latest notes &amp; commits</strong></summary>
+  <summary>Latest notes &amp; commits</summary>
   <br />
 
   <!-- UPDATES:START -->
@@ -80,7 +42,7 @@ A local-first studio for rendering media into animated color ASCII, exporting it
 </details>
 
 <details>
-  <summary><strong>Live GitHub sea</strong> — a tiny automated signature</summary>
+  <summary>Live GitHub sea</summary>
   <br />
 
   <!-- FISH:START -->
@@ -95,6 +57,6 @@ A local-first studio for rendering media into animated color ASCII, exporting it
 
 <p align="center">
   <a href="https://asciimotion.waldan.my.id/">
-    <img src="./assets/asciimotion-footer-2x.gif" alt="Animated ASCII Starry Night village — ASCII Motion footer" width="100%" />
+    <img src="./assets/asciimotion-footer-2x.gif" alt="Animated ASCII Starry Night village - ASCII Motion footer" width="100%" />
   </a>
 </p>
