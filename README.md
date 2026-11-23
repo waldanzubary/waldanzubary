@@ -5,12 +5,6 @@
 </p>
 
 <h1 align="center">Waldan Zubary</h1>
-<p align="center">Web developer building apps, tools, and small experiments.</p>
-<p align="center">
-  <a href="https://www.waldan.my.id">Blog</a> &middot;
-  <a href="https://github.com/waldanzubary">GitHub</a> &middot;
-  <a href="https://asciimotion.waldan.my.id/">ASCII Motion</a>
-</p>
 
 ---
 
