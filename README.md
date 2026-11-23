@@ -5,10 +5,11 @@
 </p>
 
 <h1 align="center">Waldan Zubary</h1>
-<p align="center">Just a Fish.</p>
+<p align="center">Web developer building apps, tools, and small experiments.</p>
 <p align="center">
   <a href="https://www.waldan.my.id">Blog</a> &middot;
   <a href="https://github.com/waldanzubary">GitHub</a> &middot;
+  <a href="https://asciimotion.waldan.my.id/">ASCII Motion</a>
 </p>
 
 ---
@@ -20,6 +21,22 @@
 A browser-based studio for turning videos, GIFs, and photos into animated color ASCII art. Render locally, export, and publish to a public archive.
 
 [Live](https://asciimotion.waldan.my.id/) | [Studio](https://asciimotion.waldan.my.id/studio) | [Archive](https://asciimotion.waldan.my.id/#archive)
+
+---
+
+## Writing
+
+I occasionally write about the things I build.
+
+- [Membuat README GitHub WebP Animated: Laut Waldan yang Hidup](https://www.waldan.my.id/blog/membuat-readme-webp-animated)
+
+---
+
+## GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=waldanzubary&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0B1020&amp;title_color=B6FF3B&amp;icon_color=4DE8FF&amp;text_color=C9D1D9&amp;rank_icon=github" alt="Waldan's GitHub stats" />
+</p>
 
 ---
 
@@ -38,20 +55,6 @@ A browser-based studio for turning videos, GIFs, and photos into animated color 
   | 06 |  | [waldanzubary/waldanzubary — Update README.md](https://github.com/waldanzubary/waldanzubary/commit/8ee1dcd859d5d12f1606c5e48ca4048e464bc2de) |
   | 07 |  | [waldanzubary/waldanzubary — fix: include latest seven commits](https://github.com/waldanzubary/waldanzubary/commit/ff73f070d179c013fd34c9def24dca66a1938e0a) |
   <!-- UPDATES:END -->
-</details>
-
-<details>
-  <summary>Live GitHub sea</summary>
-  <br />
-
-  <!-- FISH:START -->
-  <p align="center">
-    <picture>
-      <source type="image/webp" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.webp?v=20261123-0-360">
-      <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.gif?v=20261123-0-360" alt="Waldan's animated sea with 0 commits today" width="800">
-    </picture>
-  </p>
-  <!-- FISH:END -->
 </details>
 
 <p align="center">
