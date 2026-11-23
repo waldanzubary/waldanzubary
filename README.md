@@ -1,22 +1,100 @@
-<!-- FISH:START -->
 <p align="center">
-  <picture>
-    <source type="image/webp" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.webp?v=20261123-0-360">
-    <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.gif?v=20261123-0-360" alt="Waldan's animated sea with 0 commits today" width="800">
-  </picture>
+  <a href="https://asciimotion.waldan.my.id/">
+    <img src="./assets/asciimotion-header-2x.gif" alt="Animated ASCII Starry Night sky — ASCII Motion" width="100%" />
+  </a>
 </p>
-<!-- FISH:END -->
 
+<h1 align="center">Waldan Zubary</h1>
+<p align="center"><sub>LOCAL-FIRST INTERFACES&nbsp; / &nbsp;PIXEL-NATIVE TOOLS&nbsp; / &nbsp;EDGE APPS</sub></p>
 
+<p align="center">
+  <a href="https://asciimotion.waldan.my.id/"><img src="https://img.shields.io/badge/LIVE-asciimotion.waldan.my.id-B6FF3B?style=for-the-badge&labelColor=0B1020" alt="ASCII Motion live" /></a>
+  <a href="https://www.waldan.my.id"><img src="https://img.shields.io/badge/BLOG-waldan.my.id-4DE8FF?style=for-the-badge&labelColor=0B1020" alt="Waldan's blog" /></a>
+  <a href="https://github.com/waldanzubary"><img src="https://img.shields.io/badge/GITHUB-waldanzubary-C9D1D9?style=for-the-badge&labelColor=0B1020&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-<!-- UPDATES:START -->
-| # | Blog | Latest Commit |
-|---:|---|---|
-| 01 | [Membuat README GitHub WebP Animated: Laut Waldan yang Hidup](https://www.waldan.my.id/blog/membuat-readme-webp-animated) | [waldanzubary/animated-ascii — feat: animated ASCII studio with Cloudflare Workers deployment](https://github.com/waldanzubary/animated-ascii/commit/4d24e830863170005afc938849dc52f0009250a8) |
-| 02 |  | [waldanzubary/auto-commit — 🤖 Auto update: 2026-11-15 08:44:55 WIB (loop 3/3)](https://github.com/waldanzubary/auto-commit/commit/d0df9287725c377881db65f98091abc205ac189b) |
-| 03 |  | [waldanzubary/auto-commit — 🤖 Auto update: 2026-11-15 08:43:23 WIB (loop 2/3)](https://github.com/waldanzubary/auto-commit/commit/9c9c1c10b9c19b9377754a48d78caa6083439213) |
-| 04 |  | [waldanzubary/auto-commit — 🤖 Auto update: 2026-11-15 08:41:52 WIB (loop 1/3)](https://github.com/waldanzubary/auto-commit/commit/a822e855469c89e2c5c8f3d89c02df214ea8c0c6) |
-| 05 |  | [waldanzubary/fish-os — feat: readable paste slugs and scrollable paste pages](https://github.com/waldanzubary/fish-os/commit/098d90f3d7beca91b15d3c553e1e4c56b080b67b) |
-| 06 |  | [waldanzubary/waldanzubary — Update README.md](https://github.com/waldanzubary/waldanzubary/commit/8ee1dcd859d5d12f1606c5e48ca4048e464bc2de) |
-| 07 |  | [waldanzubary/waldanzubary — fix: include latest seven commits](https://github.com/waldanzubary/waldanzubary/commit/ff73f070d179c013fd34c9def24dca66a1938e0a) |
-<!-- UPDATES:END -->
+<p align="center">
+  I build small, sharp tools that turn raw media into things worth keeping —<br />
+  mostly in the browser, often at the edge.
+</p>
+
+---
+
+## / featured build
+
+### ASCII Motion
+
+**Video / GIF / photo → colored animated ASCII.**
+
+A local-first studio for rendering media into animated color ASCII, exporting it as PNG, WebP, GIF, WebM, or TXT, and publishing finished pieces into a curated public archive.
+
+[Open the live app](https://asciimotion.waldan.my.id/) · [Open the studio](https://asciimotion.waldan.my.id/studio) · [Browse the archive](https://asciimotion.waldan.my.id/#archive)
+
+- Browser-side renderer: media → ASCII on `<canvas>`.
+- Animated GIF pipeline with adaptive width, FPS, and palette.
+- Public masonry archive backed by Cloudflare D1, with server-verified admin controls.
+- Next.js 16 on Cloudflare Workers at `asciimotion.waldan.my.id`.
+
+<p align="center">
+  <a href="https://asciimotion.waldan.my.id/"><img src="https://img.shields.io/badge/OPEN_LIVE-asciimotion.waldan.my.id-B6FF3B?style=for-the-badge&labelColor=0B1020&logo=cloudflare&logoColor=0B1020" alt="Open ASCII Motion live" /></a>
+</p>
+
+---
+
+## / toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
+  <img src="https://img.shields.io/badge/Cloudflare_D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1" />
+  <img src="https://img.shields.io/badge/Canvas_2D-0B1020?style=flat-square&logo=html5&logoColor=white" alt="Canvas 2D" />
+</p>
+
+---
+
+## / currently
+
+- Building **ASCII Motion** — refining the renderer, archive, and publishing flow.
+- Exploring local-first media tools, edge runtimes, and interfaces that feel like instruments.
+
+---
+
+<details>
+  <summary><strong>Latest notes &amp; commits</strong></summary>
+  <br />
+
+  <!-- UPDATES:START -->
+  | # | Blog | Latest Commit |
+  |---:|---|---|
+  | 01 | [Membuat README GitHub WebP Animated: Laut Waldan yang Hidup](https://www.waldan.my.id/blog/membuat-readme-webp-animated) | [waldanzubary/animated-ascii — feat: animated ASCII studio with Cloudflare Workers deployment](https://github.com/waldanzubary/animated-ascii/commit/4d24e830863170005afc938849dc52f0009250a8) |
+  | 02 |  | [waldanzubary/auto-commit — 🤖 Auto update: 2026-11-15 08:44:55 WIB (loop 3/3)](https://github.com/waldanzubary/auto-commit/commit/d0df9287725c377881db65f98091abc205ac189b) |
+  | 03 |  | [waldanzubary/auto-commit — 🤖 Auto update: 2026-11-15 08:43:23 WIB (loop 2/3)](https://github.com/waldanzubary/auto-commit/commit/9c9c1c10b9c19b9377754a48d78caa6083439213) |
+  | 04 |  | [waldanzubary/auto-commit — 🤖 Auto update: 2026-11-15 08:41:52 WIB (loop 1/3)](https://github.com/waldanzubary/auto-commit/commit/a822e855469c89e2c5c8f3d89c02df214ea8c0c6) |
+  | 05 |  | [waldanzubary/fish-os — feat: readable paste slugs and scrollable paste pages](https://github.com/waldanzubary/fish-os/commit/098d90f3d7beca91b15d3c553e1e4c56b080b67b) |
+  | 06 |  | [waldanzubary/waldanzubary — Update README.md](https://github.com/waldanzubary/waldanzubary/commit/8ee1dcd859d5d12f1606c5e48ca4048e464bc2de) |
+  | 07 |  | [waldanzubary/waldanzubary — fix: include latest seven commits](https://github.com/waldanzubary/waldanzubary/commit/ff73f070d179c013fd34c9def24dca66a1938e0a) |
+  <!-- UPDATES:END -->
+</details>
+
+<details>
+  <summary><strong>Live GitHub sea</strong> — a tiny automated signature</summary>
+  <br />
+
+  <!-- FISH:START -->
+  <p align="center">
+    <picture>
+      <source type="image/webp" srcset="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.webp?v=20261123-0-360">
+      <img src="https://raw.githubusercontent.com/waldanzubary/waldanzubary/main/assets/fish.gif?v=20261123-0-360" alt="Waldan's animated sea with 0 commits today" width="800">
+    </picture>
+  </p>
+  <!-- FISH:END -->
+</details>
+
+<p align="center">
+  <a href="https://asciimotion.waldan.my.id/">
+    <img src="./assets/asciimotion-footer-2x.gif" alt="Animated ASCII Starry Night village — ASCII Motion footer" width="100%" />
+  </a>
+</p>
