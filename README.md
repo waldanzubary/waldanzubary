@@ -4,11 +4,6 @@
   </a>
 </p>
 
-<h1 align="center">Waldan Zubary</h1>
-<p align="center"><sub>blub blub... gulp gulp... 🐟</sub></p>
-
----
-
 ## Featured project
 
 ### ASCII Motion
