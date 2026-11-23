@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">Waldan Zubary</h1>
-<p align="center">Web developer building apps and tools for the web.</p>
+<p align="center">Just a Fish.</p>
 <p align="center">
   <a href="https://www.waldan.my.id">Blog</a> &middot;
   <a href="https://github.com/waldanzubary">GitHub</a> &middot;
