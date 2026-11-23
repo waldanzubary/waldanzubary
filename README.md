@@ -32,14 +32,6 @@ I occasionally write about the things I build.
 
 ---
 
-## GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=waldanzubary&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0B1020&amp;title_color=B6FF3B&amp;icon_color=4DE8FF&amp;text_color=C9D1D9&amp;rank_icon=github" alt="Waldan's GitHub stats" />
-</p>
-
----
-
 <details>
   <summary>Latest notes &amp; commits</summary>
   <br />
