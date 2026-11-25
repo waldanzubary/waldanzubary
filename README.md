@@ -4,13 +4,19 @@
   </a>
 </p>
 
-## Featured project
+## Featured projects
 
 ### ASCII Motion
 
 A browser-based studio for turning videos, GIFs, and photos into animated color ASCII art. Render locally, export, and publish to a public archive.
 
 [Live](https://asciimotion.waldan.my.id/) | [Studio](https://asciimotion.waldan.my.id/studio) | [Archive](https://asciimotion.waldan.my.id/#archive)
+
+### share-my-source
+
+Satu link untuk seluruh source code tim: workspace realtime dengan banyak folder dan file, live cursor, autosave, version history, dan export ZIP. Dibangun dengan Next.js, Yjs, Monaco, dan Cloudflare Workers.
+
+[Live](https://share.waldan.my.id) | [Source](https://github.com/waldanzubary/share-my-source)
 
 ---
 
